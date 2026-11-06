@@ -1,0 +1,124 @@
+body[data-brand='humber']{--background:#f8f6ef;--surface:#fffdf7;--ink:#193c2c;--muted:#596254;--accent:#244d38;--accent-ink:#fffdf5;--line:#d8d8c9;--heading-font:'Cormorant Garamond',Georgia,'Times New Roman',serif;background:var(--background);color:var(--ink)}
+body[data-brand='humber'] .site-header{background:#fffdf6;border-bottom:1px solid #deded0}
+body[data-brand='humber'] .brand-logo{width:190px;height:100px;object-fit:contain}
+body[data-brand='humber'] .button{border-radius:0}
+.humber-home h1,.humber-home h2,.humber-home h3{font-family:var(--heading-font);font-weight:400;letter-spacing:-.035em}
+.humber-home h2{font-size:clamp(2.35rem,4.2vw,4rem);line-height:1.12}
+.humber-home h1 em,.humber-home h2 em{font-weight:400}
+.humber-home p{line-height:1.75}
+.humber-home .eyebrow{font-size:.69rem;font-weight:600;letter-spacing:.17em;line-height:1.8}
+.humber-home .text-link{font-size:.86rem;font-weight:600;display:inline-flex;align-items:center;gap:24px;text-decoration:none;border-bottom:1px solid #b5bda8;padding-bottom:6px}
+.humber-home .button{min-height:54px;display:inline-flex;gap:27px;align-items:center;justify-content:center;padding:16px 22px;font-size:.85rem;font-weight:600;text-decoration:none;background:#244d38;color:#fffdf5;border:1px solid #244d38}
+.humber-home .button:hover{background:#143324}
+.humber-hero{display:grid;grid-template-columns:1fr 1fr;min-height:630px;max-width:1680px;margin:0 auto}
+.humber-hero-copy{padding:78px max(34px,calc((100vw - 1280px)/2)) 52px;padding-right:36px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.humber-hero h1{font-size:clamp(2.8rem,4.6vw,5rem);line-height:1.08;margin:22px 0 26px;white-space:nowrap}
+.humber-hero h1 em{color:#6f7457}
+.humber-hero-description{font-size:1.02rem;max-width:380px;color:#556153;margin:0 0 28px}
+.humber-hero-actions{display:flex;flex-wrap:wrap;gap:23px 26px;align-items:center}
+.humber-hero-footnote{font-size:.74rem;color:#5f6658;margin-top:38px}
+.humber-hero-figure{margin:0;position:relative;background:#d9d8ca;display:flex;flex-direction:column}
+.humber-hero-photo{position:relative;flex:1;min-height:530px}
+.humber-hero-photo img{object-fit:cover;object-position:50% 50%}
+.humber-hero-figure figcaption{display:flex;justify-content:space-between;align-items:center;gap:15px;min-height:54px;padding:12px 23px;background:#254b37;color:#f7f3e8;font-size:.6rem;line-height:1.5;letter-spacing:.08em}
+.humber-hero-figure figcaption span:last-child{letter-spacing:0;opacity:.85;font-size:.65rem}
+.humber-material-bar{display:flex;justify-content:center;gap:clamp(20px,5vw,80px);flex-wrap:wrap;padding:26px 24px;border-top:1px solid #deded0;border-bottom:1px solid #deded0;font-family:var(--heading-font);font-size:1.1rem;background:#efeee4}
+.humber-material-bar span{display:flex;align-items:center;gap:clamp(20px,5vw,80px)}
+.humber-material-bar span:not(:last-child):after{content:'✦';font-family:serif;font-size:.55rem;color:#a58c4d}
+.humber-intro{display:grid;grid-template-columns:1fr 1fr;gap:100px;padding-top:105px;padding-bottom:105px}
+.humber-intro h2{margin:17px 0 0}
+.humber-intro-copy{padding-top:13px;max-width:490px}
+.humber-intro-copy p{color:#5b6358;font-size:.99rem;margin:0 0 20px}
+.humber-intro-copy .text-link{margin-top:8px}
+.humber-services{padding:82px 0 70px;background:#eaece1}
+.humber-section-top{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:38px}
+.humber-section-top h2{margin:15px 0 0}
+.humber-section-top>p{color:#596453;font-size:.91rem;max-width:330px;margin:0 0 7px}
+.humber-service-grid{display:grid;grid-template-columns:repeat(4,1fr);border-left:1px solid #bec6b2}
+.humber-service{display:flex;flex-direction:column;padding:30px 25px 26px;border:1px solid #bec6b2;border-left:0;min-height:285px;color:#1d402d;text-decoration:none;transition:background .2s}
+.humber-service:hover{background:#f7f8ef}
+.humber-service-number{font-size:.68rem;letter-spacing:.1em;color:#55614a}
+.humber-service h3{font-size:1.55rem;line-height:1.15;margin:26px 0 15px}
+.humber-service p{font-size:.86rem;color:#596453;margin:0 0 28px}
+.humber-service-link{font-size:.72rem;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:auto}
+.humber-service-link span{font-size:1.2rem}
+.humber-proposed-note{font-size:.72rem;color:#5b6556;margin:20px 0 0}
+.humber-inspiration{padding-top:100px;padding-bottom:80px}
+.humber-gallery-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:38px;align-items:end}
+.humber-gallery-grid figure{margin:0}
+.humber-gallery-photo{position:relative;overflow:hidden;background:#dddace}
+.humber-gallery-photo img{object-fit:cover}
+.humber-gallery-main{height:425px}
+.humber-gallery-detail{height:340px}
+.humber-gallery-grid figcaption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-top:15px;font-size:.61rem;letter-spacing:.07em}
+.humber-gallery-grid figcaption span:last-child{color:#69705f;letter-spacing:0}
+.humber-gallery-note{font-size:.75rem;color:#69705f;margin-top:24px}
+.humber-process{padding:76px 0 80px;background:#f0efe5;border-block:1px solid #deded0}
+.humber-process h2{margin:15px 0 42px}
+.humber-process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:36px}
+.humber-process-grid article{border-top:1px solid #b9bca8;padding-top:24px}
+.humber-step-number{display:block;font-family:var(--heading-font);font-size:2.4rem;color:#9a8756}
+.humber-process-grid h3{font-size:1.5rem;margin:20px 0 12px}
+.humber-process-grid p{font-size:.88rem;color:#596453;margin:0}
+.humber-local{display:grid;grid-template-columns:1.05fr 1fr;gap:100px;padding-top:100px;padding-bottom:92px}
+.humber-local h2{margin:15px 0 22px}
+.humber-local p:not(.eyebrow){font-size:.94rem;color:#596453;max-width:440px;margin-bottom:25px}
+.humber-area-list{padding-top:18px;display:grid;grid-template-columns:1fr 1fr;gap:0 30px}
+.humber-area-list>span{border-bottom:1px solid #d3d6c6;display:flex;align-items:center;justify-content:space-between;gap:12px;font-family:var(--heading-font);font-size:1.2rem;min-height:76px}
+.humber-area-list>span>span{font-family:Arial,sans-serif;font-size:.9rem;color:#8f814f}
+.humber-area-list small{grid-column:1/-1;font-size:.69rem;color:#6b7161;padding-top:20px}
+.humber-faq{display:grid;grid-template-columns:1fr 1.2fr;gap:70px;padding-top:65px;padding-bottom:100px;border-top:1px solid #d7dacb}
+.humber-faq h2{margin:16px 0 25px;font-size:clamp(2.1rem,3.7vw,3.2rem)}
+.humber-faq-list details{border-bottom:1px solid #d3d6c6}
+.humber-faq-list summary{list-style:none;cursor:pointer;padding:22px 0;display:flex;justify-content:space-between;gap:30px;font-size:.94rem;font-weight:500}
+.humber-faq-list summary::-webkit-details-marker{display:none}
+.humber-faq-list summary span{font-size:1.25rem;color:#8d7d4e;font-weight:400}
+.humber-faq-list details[open] summary span{transform:rotate(45deg)}
+.humber-faq-list details p{font-size:.9rem;color:#596453;margin:0 30px 24px 0}
+.humber-final{background:#21452f;color:#faf6e9;padding:82px 0 88px;position:relative;overflow:hidden}
+.humber-final .container{position:relative;z-index:1}
+.humber-final .eyebrow{color:#d2be82}
+.humber-final h2{font-size:clamp(2.8rem,5.1vw,5rem);margin:18px 0 22px;color:#faf6e9}
+.humber-final p:not(.eyebrow){color:#d0d9c9;font-size:.96rem;margin-bottom:28px}
+.humber-final .button{background:#e6d5a8;border-color:#e6d5a8;color:#24442f}
+.humber-final .button:hover{background:#f5e6c1}
+.humber-final-mark{position:absolute;font-family:var(--heading-font);font-size:37rem;line-height:1;color:#35553c;right:8%;bottom:-100px;user-select:none}
+@media(min-width:1680px){.humber-hero-copy{padding-left:100px}}
+@media(max-width:1100px){.humber-hero-copy{padding-left:30px;padding-right:20px}.humber-hero h1{font-size:3.5rem}.humber-hero-actions{flex-direction:column;align-items:flex-start;gap:20px}.humber-intro,.humber-local{gap:45px}.humber-service{padding:25px 18px}.humber-service h3{font-size:1.4rem}.humber-faq{gap:45px}}
+@media(max-width:800px){.humber-hero{grid-template-columns:1fr}.humber-hero-copy{padding:54px 24px 44px;max-width:650px}.humber-hero h1{font-size:clamp(2.65rem,7.7vw,4.5rem);white-space:normal}.humber-hero-actions{flex-direction:row;align-items:center}.humber-hero-footnote{margin-top:26px}.humber-hero-photo{min-height:400px}.humber-material-bar{font-size:.92rem;gap:12px 28px}.humber-material-bar span{gap:28px}.humber-intro{gap:30px;padding-top:66px;padding-bottom:66px}.humber-service-grid{grid-template-columns:1fr 1fr}.humber-service:nth-child(n+3){border-top:0}.humber-service{min-height:250px}.humber-section-top{gap:22px}.humber-section-top>p{max-width:260px}.humber-inspiration{padding-top:65px;padding-bottom:55px}.humber-gallery-grid{gap:24px}.humber-gallery-main{height:330px}.humber-gallery-detail{height:270px}.humber-process-grid{grid-template-columns:1fr 1fr;gap:30px}.humber-local{gap:36px;padding-top:65px;padding-bottom:65px}.humber-area-list{grid-template-columns:1fr}.humber-area-list>span{min-height:45px}.humber-area-list small{padding-top:14px}.humber-faq{grid-template-columns:1fr;padding-top:50px;padding-bottom:65px;gap:24px}.humber-final-mark{right:-50px;font-size:30rem;opacity:.6}}
+@media(max-width:560px){body[data-brand='humber'] .brand-logo{width:155px;height:82px}.humber-hero-copy{padding-top:38px}.humber-hero h1{font-size:2.9rem;line-height:1.1}.humber-hero-description{font-size:.95rem}.humber-hero-actions{flex-direction:column;align-items:flex-start;gap:20px}.humber-hero-photo{min-height:340px}.humber-hero-figure figcaption{padding:12px 18px;flex-direction:column;align-items:flex-start;gap:5px}.humber-material-bar{display:grid;grid-template-columns:1fr 1fr;gap:15px 25px;text-align:center}.humber-material-bar span{justify-content:center}.humber-material-bar span:after{display:none}.humber-intro{grid-template-columns:1fr;gap:15px;padding-top:52px;padding-bottom:56px}.humber-intro-copy{padding-top:0}.humber-services{padding:56px 0 45px}.humber-section-top{display:block}.humber-section-top>p{max-width:none;margin-top:20px}.humber-section-top>.text-link{margin-top:20px}.humber-service{padding:22px 16px;min-height:260px}.humber-service h3{font-size:1.4rem;margin-top:20px}.humber-service p{font-size:.81rem}.humber-service-link{font-size:.68rem;gap:8px}.humber-gallery-grid{grid-template-columns:1fr;gap:32px}.humber-gallery-main{height:320px}.humber-gallery-detail{height:270px}.humber-gallery-grid figcaption{font-size:.6rem}.humber-process{padding:55px 0}.humber-process-grid{gap:30px 23px}.humber-process-grid h3{font-size:1.3rem}.humber-process-grid p{font-size:.83rem}.humber-local{grid-template-columns:1fr;gap:22px;padding-block:55px}.humber-area-list{grid-template-columns:1fr 1fr;gap:0 22px}.humber-area-list>span{min-height:64px;font-size:1.06rem}.humber-faq{padding-bottom:55px}.humber-final{padding:60px 0 65px}.humber-final h2{font-size:2.9rem}.humber-final-mark{right:-85px;bottom:-55px;font-size:26rem;opacity:.45}}
+.humber-home .eyebrow{font-size:.75rem}
+.humber-home .text-link,.humber-home .button{font-size:.95rem}
+.humber-home .humber-service p,.humber-home .humber-process-grid p,.humber-home .humber-faq-list summary,.humber-home .humber-faq-list details p{font-size:1rem}
+.humber-home .humber-service-link{font-size:.85rem}
+.humber-home .humber-proposed-note,.humber-home .humber-gallery-note,.humber-home .humber-area-list small,.humber-home .humber-hero-footnote{font-size:.82rem}
+.humber-home figcaption,.humber-home figcaption span:last-child{font-size:.72rem}
+@media(prefers-reduced-motion:reduce){.humber-home *{transition:none!important}}
+
+/* Humber supporting pages use a centred, bordered editorial composition. */
+body[data-brand='humber'] .page-heading{background:#efeee4;padding-block:52px 64px;border-bottom:1px solid #cbd0bd;text-align:center}
+body[data-brand='humber'] .page-heading .breadcrumb{justify-content:center;margin-bottom:38px;text-align:left}
+body[data-brand='humber'] .page-heading .eyebrow{color:#74643d;margin-bottom:20px}
+body[data-brand='humber'] .page-heading h1{max-width:850px;margin-inline:auto;font-weight:400;font-size:clamp(2.8rem,5.7vw,5.5rem)}
+body[data-brand='humber'] .page-heading .lead{max-width:670px;margin:26px auto 0;font-size:1.06rem}
+body[data-brand='humber'] .two-column{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:80px;align-items:center}
+body[data-brand='humber'] .two-column:has(>figure) .prose{padding:26px 0 26px 28px;border-left:2px solid #b7a16b}
+body[data-brand='humber'] .two-column>figure{padding:14px;border:1px solid #c9cfbc;background:#f0efe5}
+body[data-brand='humber'] .two-column>figure .editorial-image{aspect-ratio:4/5}
+body[data-brand='humber'] .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid #c3ccb7;border-left:1px solid #c3ccb7}
+body[data-brand='humber'] .service-card{padding:38px 40px;border:0;border-right:1px solid #c3ccb7;border-bottom:1px solid #c3ccb7;background:#f0f1e7;min-width:0;min-height:255px}
+body[data-brand='humber'] .service-card:nth-child(4n+2),body[data-brand='humber'] .service-card:nth-child(4n+3){background:#e7ebde}
+body[data-brand='humber'] .service-card h2{font-size:2.5rem}
+body[data-brand='humber'] .service-card .eyebrow{color:#6a704e}
+body[data-brand='humber'] .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:45px 36px;align-items:start}
+body[data-brand='humber'] .gallery-grid figure:first-child{grid-column:1/-1}
+body[data-brand='humber'] .gallery-grid figure:first-child img{aspect-ratio:2.25/1;max-height:560px}
+body[data-brand='humber'] .gallery-grid figure:not(:first-child) img{aspect-ratio:5/4}
+body[data-brand='humber'] .gallery-grid figcaption{border-bottom:1px solid #cbd0bd;padding:0 0 20px}
+body[data-brand='humber'] .gallery-grid h2{font-size:2.25rem}
+body[data-brand='humber'] .contact-aside{border-top:3px solid #a58b4c;padding-top:26px}
+body[data-brand='humber'] .estimate-form-wrap{min-width:0}
+body[data-brand='humber'] .form-field label,body[data-brand='humber'] .estimate-form label,body[data-brand='humber'] .estimate-form legend{font-size:1rem}
+.humber-home .humber-hero-description,.humber-home .humber-intro-copy p,.humber-home .humber-section-top>p,.humber-home .humber-local p:not(.eyebrow),.humber-home .humber-final p:not(.eyebrow){font-size:1rem}
+@media(max-width:800px){body[data-brand='humber'] .two-column{gap:35px}body[data-brand='humber'] .service-card{padding:28px}body[data-brand='humber'] .two-column:has(>figure) .prose{padding-left:20px}body[data-brand='humber'] .page-heading h1{font-size:3.4rem}}
+@media(max-width:640px){body[data-brand='humber'] .page-heading{padding-block:35px 43px}body[data-brand='humber'] .page-heading h1{font-size:2.8rem}body[data-brand='humber'] .page-heading .breadcrumb{justify-content:flex-start;margin-bottom:30px;flex-wrap:wrap}body[data-brand='humber'] .page-heading .lead{font-size:1rem}body[data-brand='humber'] .two-column,body[data-brand='humber'] .service-grid,body[data-brand='humber'] .gallery-grid{grid-template-columns:minmax(0,1fr)}body[data-brand='humber'] .service-card{padding:30px 25px;min-height:230px}body[data-brand='humber'] .service-card h2{font-size:2.2rem}body[data-brand='humber'] .gallery-grid figure:first-child img{aspect-ratio:5/4}body[data-brand='humber'] .gallery-grid{gap:35px}body[data-brand='humber'] .two-column>figure{padding:10px}}
